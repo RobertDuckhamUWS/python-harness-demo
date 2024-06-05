@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RobertDuckhamUWS_python_harness_demo_1717613864050-pr-trigger-input-set
+  identifier: Build_RobertDuckhamUWS_python_harness_demo_1717613864050prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_RobertDuckhamUWS_python_harness_demo_1717613864050
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
